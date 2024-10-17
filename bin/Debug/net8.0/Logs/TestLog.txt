@@ -1,0 +1,137 @@
+Test Log - MARS Portal Automation
+================================
+17/10/2024 6:30:47 pm: Logging into MARS...
+17/10/2024 6:30:49 pm: User successfully logged in.
+17/10/2024 6:30:49 pm: Starting cleanup of existing languages and skills...
+17/10/2024 6:30:59 pm: Cleanup completed successfully.
+17/10/2024 6:30:59 pm: Navigating to the Languages tab...
+17/10/2024 6:30:59 pm: Languages tab clicked.
+17/10/2024 6:30:59 pm: 
+[Running Basic Positive Language Tests]
+17/10/2024 6:30:59 pm: Attempting to click 'Add New' button...
+17/10/2024 6:30:59 pm: Clicked 'Add New' button.
+17/10/2024 6:30:59 pm: Attempting to add new language: English, Level: Fluent
+17/10/2024 6:30:59 pm: Entered language: English.
+17/10/2024 6:30:59 pm: Selected language level: Fluent.
+17/10/2024 6:30:59 pm: Clicked 'Add' button to submit the language: English.
+17/10/2024 6:30:59 pm: Attempting to click 'Add New' button...
+17/10/2024 6:30:59 pm: Clicked 'Add New' button.
+17/10/2024 6:30:59 pm: Attempting to add new language: Tamil, Level: Conversational
+17/10/2024 6:31:00 pm: Entered language: Tamil.
+17/10/2024 6:31:00 pm: Selected language level: Conversational.
+17/10/2024 6:31:00 pm: Clicked 'Add' button to submit the language: Tamil.
+17/10/2024 6:31:00 pm: Attempting to click 'Add New' button...
+17/10/2024 6:31:00 pm: Clicked 'Add New' button.
+17/10/2024 6:31:00 pm: Attempting to add new language: French, Level: Basic
+17/10/2024 6:31:00 pm: Entered language: French.
+17/10/2024 6:31:00 pm: Selected language level: Basic.
+17/10/2024 6:31:00 pm: Clicked 'Add' button to submit the language: French.
+17/10/2024 6:31:00 pm: Attempting to click 'Add New' button...
+17/10/2024 6:31:00 pm: Clicked 'Add New' button.
+17/10/2024 6:31:00 pm: Attempting to add new language: Malayalam, Level: Native/Bilingual
+17/10/2024 6:31:00 pm: Entered language: Malayalam.
+17/10/2024 6:31:00 pm: Selected language level: Native/Bilingual.
+17/10/2024 6:31:00 pm: Clicked 'Add' button to submit the language: Malayalam.
+17/10/2024 6:31:01 pm: Confirmed: 'Add New' button has vanished after four languages were added.
+17/10/2024 6:31:01 pm: Attempting to edit French to Hindi...
+17/10/2024 6:31:01 pm: Clicked edit for language 'French'.
+17/10/2024 6:31:02 pm: Updated language to: Hindi.
+17/10/2024 6:31:02 pm: Updated language level to: Fluent.
+17/10/2024 6:31:02 pm: Clicked 'Update' button to save changes.
+17/10/2024 6:31:02 pm: 
+[Running Extended Positive Language Tests]
+17/10/2024 6:31:02 pm: Attempting to edit Tamil to Kannada...
+17/10/2024 6:31:02 pm: Clicked edit for language 'Tamil'.
+17/10/2024 6:31:03 pm: Updated language to: Kannada.
+17/10/2024 6:31:03 pm: Updated language level to: Conversational.
+17/10/2024 6:31:03 pm: Clicked 'Update' button to save changes.
+17/10/2024 6:31:03 pm: Attempting to edit Malayalam to Telugu...
+17/10/2024 6:31:04 pm: Clicked edit for language 'Malayalam'.
+17/10/2024 6:31:04 pm: Updated language to: Telugu.
+17/10/2024 6:31:04 pm: Updated language level to: Native/Bilingual.
+17/10/2024 6:31:04 pm: Clicked 'Update' button to save changes.
+17/10/2024 6:31:04 pm: 
+[Running Negative Language Testing with Valid Input]
+17/10/2024 6:31:04 pm: Attempting to click 'Add New' button...
+17/10/2024 6:31:15 pm: Error adding language English: Timed out after 10 seconds
+17/10/2024 6:31:15 pm: 
+[Running Destructive Language Testing]
+17/10/2024 6:31:15 pm: Attempting to add duplicate language: English
+17/10/2024 6:31:15 pm: Attempting to click 'Add New' button...
+17/10/2024 6:31:25 pm: Error adding language English: Timed out after 10 seconds
+17/10/2024 6:31:25 pm: Waiting for cancel button...
+17/10/2024 6:31:36 pm: Error handling duplicate language: Timed out after 10 seconds
+17/10/2024 6:31:36 pm: 
+[Running Language Deletion Tests]
+17/10/2024 6:31:36 pm: Attempting to delete language: Hindi
+17/10/2024 6:31:46 pm: Error deleting language: Timed out after 10 seconds
+17/10/2024 6:31:46 pm: Attempting to delete language: Kannada
+17/10/2024 6:31:57 pm: Error deleting language: Timed out after 10 seconds
+17/10/2024 6:31:57 pm: Navigating to the Skills tab...
+17/10/2024 6:31:57 pm: Skills tab clicked.
+17/10/2024 6:31:57 pm: 
+[Running Basic Positive Skill Tests]
+17/10/2024 6:31:57 pm: Attempting to add new skill...
+17/10/2024 6:31:57 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:31:57 pm: Entered skill: Python.
+17/10/2024 6:31:57 pm: Selected skill level: Expert.
+17/10/2024 6:31:57 pm: Clicked 'Add' button to submit the skill: Python.
+17/10/2024 6:31:57 pm: Attempting to add new skill...
+17/10/2024 6:31:57 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:31:58 pm: Entered skill: Tableau.
+17/10/2024 6:31:58 pm: Selected skill level: Intermediate.
+17/10/2024 6:31:58 pm: Clicked 'Add' button to submit the skill: Tableau.
+17/10/2024 6:31:58 pm: Attempting to add new skill...
+17/10/2024 6:31:58 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:31:58 pm: Entered skill: Power BI.
+17/10/2024 6:31:58 pm: Selected skill level: Beginner.
+17/10/2024 6:31:58 pm: Clicked 'Add' button to submit the skill: Power BI.
+17/10/2024 6:31:58 pm: Attempting to add new skill...
+17/10/2024 6:31:58 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:31:59 pm: Entered skill: R Programming.
+17/10/2024 6:31:59 pm: Selected skill level: Intermediate.
+17/10/2024 6:31:59 pm: Clicked 'Add' button to submit the skill: R Programming.
+17/10/2024 6:31:59 pm: Attempting to add new skill...
+17/10/2024 6:31:59 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:31:59 pm: Entered skill: SAS.
+17/10/2024 6:31:59 pm: Selected skill level: Expert.
+17/10/2024 6:31:59 pm: Clicked 'Add' button to submit the skill: SAS.
+17/10/2024 6:31:59 pm: Attempting to add new skill...
+17/10/2024 6:32:00 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:32:00 pm: Entered skill: Excel.
+17/10/2024 6:32:00 pm: Selected skill level: Expert.
+17/10/2024 6:32:00 pm: Clicked 'Add' button to submit the skill: Excel.
+17/10/2024 6:32:00 pm: Attempting to add new skill...
+17/10/2024 6:32:00 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:32:00 pm: Entered skill: Java.
+17/10/2024 6:32:00 pm: Selected skill level: Intermediate.
+17/10/2024 6:32:00 pm: Clicked 'Add' button to submit the skill: Java.
+17/10/2024 6:32:00 pm: Attempting to edit skill Power BI to SQL...
+17/10/2024 6:32:00 pm: Clicked edit for skill 'Power BI'.
+17/10/2024 6:32:01 pm: Updated skill to: SQL.
+17/10/2024 6:32:01 pm: Updated skill level to: Expert.
+17/10/2024 6:32:01 pm: Clicked 'Update' button to save changes.
+17/10/2024 6:32:01 pm: 
+[Running Negative Skill Testing with Valid Input]
+17/10/2024 6:32:01 pm: Attempting to add duplicate skills...
+17/10/2024 6:32:01 pm: Attempting to add new skill...
+17/10/2024 6:32:01 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:32:01 pm: Entered skill: Python.
+17/10/2024 6:32:01 pm: Selected skill level: Expert.
+17/10/2024 6:32:01 pm: Clicked 'Add' button to submit the skill: Python.
+17/10/2024 6:32:01 pm: 
+[Running Destructive Skill Testing]
+17/10/2024 6:32:01 pm: Attempting to add duplicate skill: Python
+17/10/2024 6:32:01 pm: Attempting to add new skill...
+17/10/2024 6:32:01 pm: Clicked 'Add New' button to add a new skill.
+17/10/2024 6:32:01 pm: Entered skill: Python.
+17/10/2024 6:32:01 pm: Selected skill level: Expert.
+17/10/2024 6:32:01 pm: Clicked 'Add' button to submit the skill: Python.
+17/10/2024 6:32:01 pm: Duplicate skill found, clicked cancel.
+17/10/2024 6:32:01 pm: 
+[Running Skill Deletion Tests]
+17/10/2024 6:32:01 pm: Attempting to delete skill: SQL
+17/10/2024 6:32:12 pm: Error deleting skill: Timed out after 10 seconds
+17/10/2024 6:32:12 pm: Attempting to delete skill: Java
+17/10/2024 6:32:12 pm: Deleted skill: Java.
+17/10/2024 6:32:12 pm: Test suite completed successfully.
